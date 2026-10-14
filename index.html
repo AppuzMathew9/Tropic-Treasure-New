@@ -1,0 +1,941 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1"/>
+  <title>Tropic Treasure — India-Origin Sourcing &amp; Ingredients Company</title>
+  <meta name="description" content="Tropic Treasure is an India-origin sourcing and ingredients company rooted in Kerala, operating across India and the UK. Spices, coffee, cashew kernels and oleoresins built on trust."/>
+  
+  <meta property="og:type" content="website"/>
+  <meta property="og:title" content="Tropic Treasure — From Soil to Shelf, Built to Be Trusted."/>
+  <meta property="og:description" content="India-origin sourcing and ingredients company rooted in Kerala · Connecting India with the World."/>
+  <meta property="og:image" content="assets/hero-cardamom.jpg"/>
+  
+  <meta name="twitter:card" content="summary_large_image"/>
+  <meta name="twitter:title" content="Tropic Treasure — From Soil to Shelf, Built to Be Trusted."/>
+  <meta name="twitter:description" content="India-origin sourcing and ingredients company rooted in Kerala · Connecting India with the World."/>
+  <meta name="twitter:image" content="assets/hero-cardamom.jpg"/>
+
+  <link rel="preload" as="image" href="assets/tt-mark.png"/>
+  <link rel="preload" as="image" href="assets/hero-cardamom.jpg"/>
+  <link rel="stylesheet" href="styles.css"/>
+  <link rel="preconnect" href="https://fonts.googleapis.com"/>
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="anonymous"/>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Manrope:wght@300;400;500;600;700&family=Roboto+Slab:wght@400;500;600;700&display=swap"/>
+  <link rel="icon" href="assets/favicon.png" type="image/png"/>
+</head>
+<body>
+  <!-- Header -->
+  <header class="sticky top-0 z-50 bg-background/95 backdrop-blur-sm transition-[border-color] border-b border-transparent">
+    <div class="container-site flex h-18 items-center justify-between py-4">
+      <a aria-label="Tropic Treasure home" class="active" href="index.html" aria-current="page">
+        <span class="flex items-center gap-3">
+          <img src="assets/tt-mark.png" alt="Tropic Treasure Logo" width="40" height="40" class="h-9 w-9 shrink-0 md:h-10 md:w-10"/>
+          <span class="flex flex-col leading-none text-primary">
+            <span class="logo-title text-[0.98rem] font-semibold tracking-[0.22em]">TROPIC TREASURE</span>
+            <span class="mt-1.5 border-t pt-1.5 text-[0.56rem] font-medium tracking-[0.16em] uppercase border-border text-muted-foreground">India-Origin Sourcing &amp; Ingredients Company</span>
+          </span>
+        </span>
+      </a>
+
+      <!-- Desktop Nav -->
+      <nav aria-label="Main" class="hidden items-center gap-5 lg:flex">
+        <a class="nav-link active" href="index.html" aria-current="page">Home</a>
+        <a class="nav-link" href="about.html">About</a>
+        <a class="nav-link" href="products.html">Products</a>
+        <a class="nav-link" href="quality.html">Quality</a>
+        <a class="nav-link" href="trade.html">Trade</a>
+        <a class="nav-link" href="contact.html">Contact</a>
+      </nav>
+
+      <div class="flex items-center gap-3">
+        <a class="btn btn-primary hidden !px-4 !py-2.5 sm:inline-flex" href="trade.html#enquiry">Trade Enquiry</a>
+        <button type="button" class="flex h-10 w-10 flex-col items-center justify-center gap-1.5 lg:hidden" aria-label="Open menu" aria-expanded="false" id="mobile-menu-btn">
+          <span class="block h-px w-6 bg-foreground transition-transform"></span>
+          <span class="block h-px w-6 bg-foreground transition-transform"></span>
+        </button>
+      </div>
+    </div>
+
+    <!-- Mobile Menu Drawer -->
+    <div id="mobile-menu" class="hidden border-t border-border bg-background px-6 py-8 lg:hidden transition-all duration-300">
+      <nav class="flex flex-col gap-5">
+        <a class="nav-link text-primary" href="index.html">Home</a>
+        <a class="nav-link" href="about.html">About</a>
+        <a class="nav-link" href="products.html">Products</a>
+        <a class="nav-link" href="quality.html">Quality</a>
+        <a class="nav-link" href="trade.html">Trade</a>
+        <a class="nav-link" href="contact.html">Contact</a>
+        <div class="pt-4 border-t border-border">
+          <a class="btn btn-primary w-full text-center" href="trade.html#enquiry">Trade Enquiry</a>
+        </div>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <!-- Hero Section with 3-Second Automatic Slideshow & Zero Blank Frames -->
+    <section class="hero-slideshow-container relative isolate flex min-h-[88vh] items-end overflow-hidden">
+      <!-- Layered Slides for Seamless Crossfade -->
+      <div class="hero-slides-wrapper absolute inset-0 -z-20">
+        <!-- Slide 1 -->
+        <div class="hero-slide active" style="opacity: 1; z-index: 2;">
+          <img src="assets/hero-cardamom.jpg" alt="Kerala Cardamom Canopy · Western Ghats" width="1920" height="1088" class="ken-burns"/>
+        </div>
+        <!-- Slide 2 -->
+        <div class="hero-slide" style="opacity: 0; z-index: 1;">
+          <img src="assets/munnar-landscape.jpg" alt="Munnar Mountain Slopes · Spice Terroirs" width="1920" height="1088" class="ken-burns"/>
+        </div>
+        <!-- Slide 3 -->
+        <div class="hero-slide" style="opacity: 0; z-index: 1;">
+          <img src="assets/origin-pepper-vine.jpg" alt="Origin Black Pepper Vines · Ripening Crop" width="1920" height="1088" class="ken-burns"/>
+        </div>
+        <!-- Slide 4 -->
+        <div class="hero-slide" style="opacity: 0; z-index: 1;">
+          <img src="assets/cat-spices.jpg" alt="Select India-Origin Harvest Spices" width="1920" height="1088" class="ken-burns"/>
+        </div>
+      </div>
+
+      <!-- Scrim gradient overlay ensuring text readability and softening image backdrop -->
+      <div class="hero-scrim absolute inset-0 -z-10"></div>
+
+      <div class="container-site pt-40 pb-20 text-ivory md:pb-28">
+        <div class="max-w-[760px]">
+          <p class="eyebrow !text-ivory/80">India-Origin Sourcing &amp; Ingredients Company · Company Profile 2026</p>
+          
+          <!-- Mirror Effect Display Headline with Visible Reflection -->
+          <div class="relative mt-6">
+            <h1 class="text-5xl leading-[1.02] font-medium md:text-7xl hero-title-mirror">From Soil to Shelf, Built to Be Trusted.</h1>
+            <div class="hero-mirror-reflection text-5xl leading-[1.02] font-medium md:text-7xl font-serif" aria-hidden="true">From Soil to Shelf, Built to Be Trusted.</div>
+          </div>
+
+          <p class="mt-6 text-xl leading-snug text-ivory/95 font-medium">Rooted in Kerala · Connecting India with the World.</p>
+          <p class="mt-4 text-base leading-relaxed text-ivory/80">
+            Tropic Treasure connects carefully selected India-origin products and ingredients with businesses worldwide through responsible sourcing, product verification and dependable trade relationships.
+          </p>
+          <div class="mt-10 flex flex-wrap gap-4">
+            <a class="btn btn-transparent" href="products.html">Explore Products</a>
+            <a class="btn btn-ghost-light" href="trade.html#enquiry">Trade Enquiry</a>
+            <a class="btn btn-ghost-light" href="about.html">About Company</a>
+          </div>
+        </div>
+      </div>
+
+      <!-- Slideshow Navigation & Caption Indicators (Bottom Right) -->
+      <div class="absolute bottom-6 right-6 md:bottom-10 md:right-12 z-20 flex flex-col items-end gap-2 text-ivory/80">
+        <span id="hero-slide-caption" class="text-xs font-semibold tracking-widest uppercase text-gold transition-opacity duration-300 drop-shadow-sm">
+          Kerala Cardamom Canopy · Western Ghats
+        </span>
+        <div class="flex items-center gap-2">
+          <div class="slide-indicator-pill active" title="Kerala Cardamom Canopy"></div>
+          <div class="slide-indicator-pill" title="Munnar Mountain Slopes"></div>
+          <div class="slide-indicator-pill" title="Origin Pepper Vines"></div>
+          <div class="slide-indicator-pill" title="Harvest Spices"></div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Who We Are Section (Page 2) -->
+    <section class="container-site py-20 md:py-32">
+      <div class="grid gap-12 lg:grid-cols-12 lg:items-center">
+        <div class="lg:col-span-6">
+          <p class="eyebrow">Who We Are</p>
+          <h2 class="mt-4 text-4xl leading-[1.08] md:text-5xl">Rooted in Origin. Built on Trust.</h2>
+          <p class="mt-6 text-lg leading-relaxed text-foreground">
+            Tropic Treasure is an India-origin sourcing and ingredients company rooted in Kerala, operating through business entities in India and the United Kingdom.
+          </p>
+          <p class="mt-4 leading-relaxed text-muted-foreground">
+            We help international food businesses source selected spices, coffee, cashew kernels and oleoresins through responsible sourcing, product verification and coordinated trade.
+          </p>
+          
+          <div class="mt-8 grid gap-4 sm:grid-cols-2">
+            <div class="border border-border bg-card p-5">
+              <span class="text-xs font-semibold tracking-[0.16em] text-gold uppercase">How We Work Together</span>
+              <p class="mt-2 text-sm text-foreground/90 font-medium">Wholesale and bulk supply · Buyer-specific sourcing</p>
+              <p class="mt-2 text-xs text-muted-foreground leading-relaxed">
+                Packaging and private-label options are reviewed against product requirements and confirmed supplier capability.
+              </p>
+            </div>
+            <div class="border border-border bg-card p-5">
+              <span class="text-xs font-semibold tracking-[0.16em] text-gold uppercase">Focus Markets</span>
+              <p class="mt-2 text-sm text-foreground/90 font-medium">United Kingdom · Europe · Middle East</p>
+              <p class="mt-2 text-xs text-muted-foreground leading-relaxed">
+                Coordinated customer trade support across international borders.
+              </p>
+            </div>
+          </div>
+
+          <div class="mt-8 border-t border-border pt-6">
+            <span class="text-xs font-semibold tracking-[0.16em] text-muted-foreground uppercase">Who We Serve</span>
+            <p class="mt-2 text-sm text-foreground/80 leading-relaxed">
+              Importers &amp; Distributors · Food Manufacturers · Wholesalers &amp; Retailers · Foodservice Businesses · Private-Label Partners
+            </p>
+          </div>
+        </div>
+
+        <div class="lg:col-span-6">
+          <div class="overflow-hidden border border-border bg-card aspect-[4/3] relative">
+            <img src="assets/workspace-boardroom.jpg" alt="Tropic Treasure corporate workspace reference" class="h-full w-full object-cover"/>
+            <div class="absolute bottom-3 left-4 bg-background/80 backdrop-blur-xs px-3 py-1 text-[0.68rem] text-muted-foreground uppercase tracking-widest">
+              Workspace reference / stock photography
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Product Portfolio (Page 6) -->
+    <section class="border-t border-border bg-secondary/40 py-24 md:py-36">
+      <div class="container-site">
+        <div class="grid gap-6 md:grid-cols-12 md:items-end">
+          <div class="md:col-span-8">
+            <p class="eyebrow">Product Portfolio</p>
+            <h2 class="mt-4 text-4xl leading-[1.08] md:text-6xl">Selected India-Origin Products &amp; Ingredients.</h2>
+          </div>
+          <p class="text-lg leading-relaxed text-muted-foreground md:col-span-4">
+            Directly from India's celebrated growing regions, coordinated for international trade and industry.
+          </p>
+        </div>
+
+        <!-- 4 Pillars Grid -->
+        <div class="mt-16 grid gap-6 sm:grid-cols-2 lg:grid-cols-4">
+          <!-- 1. Spices -->
+          <a class="group relative isolate flex flex-col overflow-hidden bg-card border border-border" href="products.html#spices">
+            <div class="relative overflow-hidden aspect-[4/3]">
+              <img src="assets/cat-spices.jpg" alt="India-origin spices" loading="lazy" class="img-zoom h-full w-full object-cover group-hover:scale-[1.04]"/>
+              <div class="card-scrim absolute inset-0"></div>
+              <span class="absolute top-4 left-4 bg-background/85 px-2.5 py-1 text-xs font-semibold tracking-wider text-gold uppercase">01</span>
+            </div>
+            <div class="flex flex-1 flex-col justify-between p-6">
+              <div>
+                <h3 class="text-2xl font-semibold text-foreground">Spices</h3>
+                <p class="mt-2 text-sm leading-relaxed text-muted-foreground">
+                  Black Peppercorns · Green Cardamom Pods · Ginger · Turmeric · Chilli · Cloves · Nutmeg
+                </p>
+              </div>
+              <span class="link-arrow arrow-nudge mt-6 inline-flex">Explore Spices <span class="arr">→</span></span>
+            </div>
+          </a>
+
+          <!-- 2. Coffee -->
+          <a class="group relative isolate flex flex-col overflow-hidden bg-card border border-border" href="products.html#coffee">
+            <div class="relative overflow-hidden aspect-[4/3]">
+              <img src="assets/cat-coffee.jpg" alt="India-origin coffee" loading="lazy" class="img-zoom h-full w-full object-cover group-hover:scale-[1.04]"/>
+              <div class="card-scrim absolute inset-0"></div>
+              <span class="absolute top-4 left-4 bg-background/85 px-2.5 py-1 text-xs font-semibold tracking-wider text-gold uppercase">02</span>
+            </div>
+            <div class="flex flex-1 flex-col justify-between p-6">
+              <div>
+                <h3 class="text-2xl font-semibold text-foreground">Coffee</h3>
+                <p class="mt-2 text-sm leading-relaxed text-muted-foreground">
+                  Indian Arabica · Robusta · Roasted Coffee
+                </p>
+              </div>
+              <span class="link-arrow arrow-nudge mt-6 inline-flex">Explore Coffee <span class="arr">→</span></span>
+            </div>
+          </a>
+
+          <!-- 3. Nuts -->
+          <a class="group relative isolate flex flex-col overflow-hidden bg-card border border-border" href="products.html#nuts">
+            <div class="relative overflow-hidden aspect-[4/3]">
+              <img src="assets/cat-nuts.jpg" alt="India-origin cashew kernels" loading="lazy" class="img-zoom h-full w-full object-cover group-hover:scale-[1.04]"/>
+              <div class="card-scrim absolute inset-0"></div>
+              <span class="absolute top-4 left-4 bg-background/85 px-2.5 py-1 text-xs font-semibold tracking-wider text-gold uppercase">03</span>
+            </div>
+            <div class="flex flex-1 flex-col justify-between p-6">
+              <div>
+                <h3 class="text-2xl font-semibold text-foreground">Nuts</h3>
+                <p class="mt-2 text-sm leading-relaxed text-muted-foreground">
+                  Cashew Kernels (Export Grades W180, W210, W240, W320, Splits &amp; Pieces)
+                </p>
+              </div>
+              <span class="link-arrow arrow-nudge mt-6 inline-flex">Explore Nuts <span class="arr">→</span></span>
+            </div>
+          </a>
+
+          <!-- 4. Oleoresins -->
+          <a class="group relative isolate flex flex-col overflow-hidden bg-card border border-border" href="products.html#oleoresins">
+            <div class="relative overflow-hidden aspect-[4/3]">
+              <img src="assets/cat-oleoresins.jpg" alt="India-origin oleoresins and extracts" loading="lazy" class="img-zoom h-full w-full object-cover group-hover:scale-[1.04]"/>
+              <div class="card-scrim absolute inset-0"></div>
+              <span class="absolute top-4 left-4 bg-background/85 px-2.5 py-1 text-xs font-semibold tracking-wider text-gold uppercase">04</span>
+            </div>
+            <div class="flex flex-1 flex-col justify-between p-6">
+              <div>
+                <h3 class="text-2xl font-semibold text-foreground">Oleoresins</h3>
+                <p class="mt-2 text-sm leading-relaxed text-muted-foreground">
+                  Turmeric · Clove · Ginger · Black Pepper
+                </p>
+              </div>
+              <span class="link-arrow arrow-nudge mt-6 inline-flex">Explore Oleoresins <span class="arr">→</span></span>
+            </div>
+          </a>
+        </div>
+
+        <!-- Availability Banner -->
+        <div class="mt-12 border border-border bg-card p-6 md:flex md:items-center md:justify-between">
+          <div class="max-w-3xl">
+            <span class="text-xs font-semibold tracking-[0.16em] text-gold uppercase">Availability &amp; Specifications</span>
+            <p class="mt-1 text-sm text-foreground/85">
+              Availability, specifications, grades, formats, packaging, minimum order quantities and lead times are confirmed for each enquiry.
+            </p>
+          </div>
+          <div class="mt-4 md:mt-0 md:ml-6 shrink-0">
+            <a class="btn btn-primary" href="trade.html#enquiry">Request Specifications</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Our Business Model: Global Connected Trade Corridor (Heavy Upgrade) -->
+    <section class="container-site py-24 md:py-36">
+      <div class="max-w-3xl">
+        <div class="inline-flex items-center gap-2 bg-primary/10 border border-primary/20 px-3.5 py-1.5 text-xs font-semibold tracking-[0.16em] uppercase text-primary mb-4 rounded-xs">
+          <span class="status-radar-dot"></span>
+          Dual-Hub Corporate Infrastructure · Company Profile 2026
+        </div>
+        <h2 class="text-4xl leading-[1.06] md:text-5xl font-medium text-foreground">
+          India to International Markets. One Connected Model.
+        </h2>
+        <p class="mt-5 text-lg leading-relaxed text-muted-foreground">
+          Closing the distance between agricultural origins and overseas food enterprises through synchronized corporate entities in Kerala, India and Essex, United Kingdom.
+        </p>
+      </div>
+
+      <!-- Interactive 3-Stage Connected Trade Corridor Dashboard -->
+      <div class="mt-14 trade-corridor-grid">
+        <!-- 1. Origin Hub (India) -->
+        <div class="corridor-hub-card">
+          <div>
+            <div class="flex items-center justify-between">
+              <span class="live-status-pill bg-primary/10 text-primary border border-primary/20">
+                <span class="status-radar-dot"></span> ORIGIN DISPATCH HUB
+              </span>
+              <span class="live-time-kochi font-mono text-xs font-bold text-primary bg-secondary/80 px-2 py-0.5 rounded-xs">16:45:00 IST</span>
+            </div>
+
+            <div class="mt-6 flex items-center gap-3">
+              <div class="h-10 w-10 rounded-full bg-primary/15 text-primary flex items-center justify-center font-bold text-sm shrink-0">
+                IN
+              </div>
+              <div>
+                <h3 class="text-xl font-bold text-foreground">Tropic Treasure Exim</h3>
+                <p class="text-xs text-muted-foreground">(OPC) Private Limited · Kerala, India</p>
+              </div>
+            </div>
+
+            <p class="mt-4 text-xs font-mono text-gold font-semibold">COORDINATES: 9.9312° N, 76.2673° E · COCHIN PORT</p>
+
+            <ul class="mt-6 space-y-3 border-t border-border pt-6 text-xs text-foreground/85 leading-relaxed">
+              <li class="flex items-start gap-2.5">
+                <span class="mt-1 h-1.5 w-1.5 shrink-0 rounded-full bg-primary"></span>
+                <span><strong>Origin Sourcing:</strong> Direct Western Ghats grower networks &amp; estate mapping</span>
+              </li>
+              <li class="flex items-start gap-2.5">
+                <span class="mt-1 h-1.5 w-1.5 shrink-0 rounded-full bg-primary"></span>
+                <span><strong>Physical Verification:</strong> Moisture, volatile oil, bulk density &amp; organoleptic tests</span>
+              </li>
+              <li class="flex items-start gap-2.5">
+                <span class="mt-1 h-1.5 w-1.5 shrink-0 rounded-full bg-primary"></span>
+                <span><strong>Accredited Lab Testing:</strong> NABL ISO 17025 certified COA verification</span>
+              </li>
+              <li class="flex items-start gap-2.5">
+                <span class="mt-1 h-1.5 w-1.5 shrink-0 rounded-full bg-primary"></span>
+                <span><strong>Export Packing:</strong> Multi-wall barrier kraft &amp; vacuum nitrogen flush packing</span>
+              </li>
+              <li class="flex items-start gap-2.5">
+                <span class="mt-1 h-1.5 w-1.5 shrink-0 rounded-full bg-primary"></span>
+                <span><strong>Statutory Clearance:</strong> Spices Board of India, FSSAI &amp; Phytosanitary clearance</span>
+              </li>
+            </ul>
+          </div>
+
+          <div class="mt-8 pt-4 border-t border-border flex items-center justify-between text-xs text-muted-foreground">
+            <span>Primary Export Gate: <strong>Cochin Port / JNPT</strong></span>
+            <span class="text-primary font-bold">FCL &amp; LCL</span>
+          </div>
+        </div>
+
+        <!-- 2. Central Maritime Transit Conduit -->
+        <div class="corridor-conduit">
+          <div>
+            <div class="flex items-center justify-between">
+              <span class="live-status-pill bg-gold/20 text-gold border border-gold/30">
+                ACTIVE FREIGHT CONDUIT
+              </span>
+              <span class="text-[0.65rem] text-ivory/60 uppercase tracking-widest">Temperature Controlled</span>
+            </div>
+
+            <h4 class="mt-6 text-lg font-bold text-ivory">Direct Origin Maritime Route</h4>
+            <p class="mt-1 text-xs text-ivory/75">
+              Scheduled weekly sailings connecting West Coast India with Northern Europe, UK &amp; GCC corridors.
+            </p>
+
+            <div class="corridor-pulse-line" title="Active Maritime Transit Corridor"></div>
+
+            <div class="space-y-2.5 text-xs text-ivory/80">
+              <div class="flex items-center justify-between py-1 border-b border-ivory/10">
+                <span>Shipping Line</span>
+                <span class="text-gold font-mono">Maersk / MSC / Hapag</span>
+              </div>
+              <div class="flex items-center justify-between py-1 border-b border-ivory/10">
+                <span>Transit Ports</span>
+                <span class="text-ivory font-mono">London Gateway / Felixstowe</span>
+              </div>
+              <div class="flex items-center justify-between py-1 border-b border-ivory/10">
+                <span>Cargo Insurance</span>
+                <span class="text-ivory">Institute Cargo Clauses (A) All Risks</span>
+              </div>
+              <div class="flex items-center justify-between py-1 border-b border-ivory/10">
+                <span>Customs Documents</span>
+                <span class="text-gold">EUR1 / COO / Bill of Lading</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="mt-8">
+            <a href="trade.html#enquiry" class="btn btn-light !text-xs !py-2.5 w-full text-center">
+              Configure Commercial Shipment
+            </a>
+          </div>
+        </div>
+
+        <!-- 3. UK Trade Desk (United Kingdom) -->
+        <div class="corridor-hub-card">
+          <div>
+            <div class="flex items-center justify-between">
+              <span class="live-status-pill bg-gold/15 text-gold border border-gold/25">
+                <span class="status-radar-dot !bg-gold"></span> UK COMMERCIAL DESK
+              </span>
+              <span class="live-time-london font-mono text-xs font-bold text-gold bg-secondary/80 px-2 py-0.5 rounded-xs">12:15:00 GMT</span>
+            </div>
+
+            <div class="mt-6 flex items-center gap-3">
+              <div class="h-10 w-10 rounded-full bg-gold/15 text-gold flex items-center justify-center font-bold text-sm shrink-0">
+                UK
+              </div>
+              <div>
+                <h3 class="text-xl font-bold text-foreground">Tropic Treasure Limited</h3>
+                <p class="text-xs text-muted-foreground">Registered in England &amp; Wales · Essex, UK</p>
+              </div>
+            </div>
+
+            <p class="mt-4 text-xs font-mono text-primary font-semibold">COORDINATES: 51.5590° N, 0.0741° E · LONDON / ESSEX</p>
+
+            <ul class="mt-6 space-y-3 border-t border-border pt-6 text-xs text-foreground/85 leading-relaxed">
+              <li class="flex items-start gap-2.5">
+                <span class="mt-1 h-1.5 w-1.5 shrink-0 rounded-full bg-gold"></span>
+                <span><strong>Customer Accounts:</strong> Dedicated UK business relationship &amp; contract managers</span>
+              </li>
+              <li class="flex items-start gap-2.5">
+                <span class="mt-1 h-1.5 w-1.5 shrink-0 rounded-full bg-gold"></span>
+                <span><strong>Commercial Terms:</strong> Domestic GBP &amp; EUR invoicing under English law contracts</span>
+              </li>
+              <li class="flex items-start gap-2.5">
+                <span class="mt-1 h-1.5 w-1.5 shrink-0 rounded-full bg-gold"></span>
+                <span><strong>Customs Support:</strong> UK HMRC tariff classification, VAT &amp; clearance coordination</span>
+              </li>
+              <li class="flex items-start gap-2.5">
+                <span class="mt-1 h-1.5 w-1.5 shrink-0 rounded-full bg-gold"></span>
+                <span><strong>Sample Dispatch:</strong> Rapid air-freight technical &amp; production samples to European labs</span>
+              </li>
+              <li class="flex items-start gap-2.5">
+                <span class="mt-1 h-1.5 w-1.5 shrink-0 rounded-full bg-gold"></span>
+                <span><strong>After-Sales Support:</strong> Traceability verification, batch retain logs &amp; annual contracts</span>
+              </li>
+            </ul>
+          </div>
+
+          <div class="mt-8 pt-4 border-t border-border flex items-center justify-between text-xs text-muted-foreground">
+            <span>Direct Commercial Line: <strong>+44 7777 306396</strong></span>
+            <span class="text-gold font-bold">UK &amp; EU Desk</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- How We Work: Interactive Laser Journey Tracker (Mouse Responsive Upgrade) -->
+    <section class="bg-forest-deep text-ivory relative isolate overflow-hidden py-24 md:py-36">
+      <div class="container-site">
+        <div class="flex flex-col md:flex-row md:items-end md:justify-between gap-6">
+          <div class="max-w-2xl">
+            <p class="eyebrow !text-ivory/60">How We Work · From Source to Delivery</p>
+            <h2 class="mt-4 text-4xl leading-[1.08] md:text-6xl font-medium">
+              A Structured Six-Step Verification Journey.
+            </h2>
+            <p class="mt-5 text-base md:text-lg leading-relaxed text-ivory/75">
+              Hover over any stage below to inspect the milestone protocol, testing parameters, and compliance checkpoints.
+            </p>
+          </div>
+          <div class="shrink-0 bg-ivory/10 border border-ivory/15 px-4 py-2 text-xs font-mono text-gold flex items-center gap-2">
+            <span class="h-2 w-2 rounded-full bg-gold animate-pulse"></span>
+            MOUSE-RESPONSIVE JOURNEY TRACKER
+          </div>
+        </div>
+
+        <!-- Laser Beam Track Container -->
+        <div class="journey-tracker">
+          <div class="journey-laser-bar">
+            <div class="journey-laser-glow"></div>
+          </div>
+
+          <!-- 6 Step Cards Grid -->
+          <div class="grid gap-4 sm:grid-cols-2 lg:grid-cols-6 relative z-10">
+            <!-- Step 1 -->
+            <div class="journey-step-card active" data-step="1">
+              <div>
+                <span class="journey-step-num">01</span>
+                <h3 class="mt-4 font-bold text-base text-foreground">Source</h3>
+                <p class="mt-1 text-xs text-primary font-semibold">Origin Selection</p>
+                <p class="mt-2 text-xs text-muted-foreground leading-relaxed">
+                  Western Ghats estates, farmer cooperatives &amp; harvest mapping.
+                </p>
+              </div>
+              <span class="mt-4 text-[0.65rem] font-bold text-gold uppercase tracking-wider">Step 1 of 6</span>
+            </div>
+
+            <!-- Step 2 -->
+            <div class="journey-step-card" data-step="2">
+              <div>
+                <span class="journey-step-num">02</span>
+                <h3 class="mt-4 font-bold text-base text-foreground">Align</h3>
+                <p class="mt-1 text-xs text-primary font-semibold">Spec Definition</p>
+                <p class="mt-2 text-xs text-muted-foreground leading-relaxed">
+                  Grades, moisture limits, volatile oils, cut/sift &amp; packaging.
+                </p>
+              </div>
+              <span class="mt-4 text-[0.65rem] font-bold text-gold uppercase tracking-wider">Step 2 of 6</span>
+            </div>
+
+            <!-- Step 3 -->
+            <div class="journey-step-card" data-step="3">
+              <div>
+                <span class="journey-step-num">03</span>
+                <h3 class="mt-4 font-bold text-base text-foreground">Sample</h3>
+                <p class="mt-1 text-xs text-primary font-semibold">Pre-Shipment Lots</p>
+                <p class="mt-2 text-xs text-muted-foreground leading-relaxed">
+                  Representative sample airfreight, sensory review &amp; COA check.
+                </p>
+              </div>
+              <span class="mt-4 text-[0.65rem] font-bold text-gold uppercase tracking-wider">Step 3 of 6</span>
+            </div>
+
+            <!-- Step 4 -->
+            <div class="journey-step-card" data-step="4">
+              <div>
+                <span class="journey-step-num">04</span>
+                <h3 class="mt-4 font-bold text-base text-foreground">Verify</h3>
+                <p class="mt-1 text-xs text-primary font-semibold">Laboratory Screen</p>
+                <p class="mt-2 text-xs text-muted-foreground leading-relaxed">
+                  Pesticide MRLs, microbial safety, aflatoxins &amp; moisture tests.
+                </p>
+              </div>
+              <span class="mt-4 text-[0.65rem] font-bold text-gold uppercase tracking-wider">Step 4 of 6</span>
+            </div>
+
+            <!-- Step 5 -->
+            <div class="journey-step-card" data-step="5">
+              <div>
+                <span class="journey-step-num">05</span>
+                <h3 class="mt-4 font-bold text-base text-foreground">Dispatch</h3>
+                <p class="mt-1 text-xs text-primary font-semibold">Port Logistics</p>
+                <p class="mt-2 text-xs text-muted-foreground leading-relaxed">
+                  Nitrogen flush bags, phytosanitary seals, customs &amp; vessel loading.
+                </p>
+              </div>
+              <span class="mt-4 text-[0.65rem] font-bold text-gold uppercase tracking-wider">Step 5 of 6</span>
+            </div>
+
+            <!-- Step 6 -->
+            <div class="journey-step-card" data-step="6">
+              <div>
+                <span class="journey-step-num">06</span>
+                <h3 class="mt-4 font-bold text-base text-foreground">Deliver</h3>
+                <p class="mt-1 text-xs text-primary font-semibold">UK Destination</p>
+                <p class="mt-2 text-xs text-muted-foreground leading-relaxed">
+                  HMRC customs, warehouse delivery, billing &amp; contract retention.
+                </p>
+              </div>
+              <span class="mt-4 text-[0.65rem] font-bold text-gold uppercase tracking-wider">Step 6 of 6</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- Live Milestone Inspection Dossier Console (Updates dynamically on mouse hover) -->
+        <div id="journey-dossier-card" class="mt-10 border border-ivory/20 bg-ivory/5 backdrop-blur-xs p-6 md:p-8 rounded-xs">
+          <div class="flex flex-col md:flex-row md:items-center md:justify-between gap-4 border-b border-ivory/15 pb-4">
+            <div>
+              <span id="journey-dossier-badge" class="text-xs font-semibold tracking-[0.2em] text-gold uppercase">Estate Audits &amp; Farm-Gate</span>
+              <h4 id="journey-dossier-title" class="mt-1 text-2xl font-bold text-ivory">1. Origin Sourcing &amp; Estate Mapping</h4>
+            </div>
+            <span class="text-xs text-ivory/60 font-mono">STANDARDIZED PROTOCOL 2026</span>
+          </div>
+          <p id="journey-dossier-desc" class="mt-4 text-sm md:text-base text-ivory/85 leading-relaxed max-w-4xl">
+            Direct farm-gate and cooperative estate relationships in Kerala's Western Ghats. Initial estate validation, harvest timing, and crop yield forecasting.
+          </p>
+          <div class="mt-6 flex flex-wrap items-center gap-3" id="journey-dossier-specs">
+            <span class="inline-block bg-primary/10 text-primary border border-primary/20 px-2.5 py-1 text-xs font-semibold rounded-xs">✓ GPS Origin Geo-Tagging</span>
+            <span class="inline-block bg-primary/10 text-primary border border-primary/20 px-2.5 py-1 text-xs font-semibold rounded-xs">✓ GAP Compliance</span>
+            <span class="inline-block bg-primary/10 text-primary border border-primary/20 px-2.5 py-1 text-xs font-semibold rounded-xs">✓ Primary Farmer Network</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Quality & Trade Readiness: Confidence Built on Evidence (Luxury Matrix Upgrade) -->
+    <section class="container-site py-24 md:py-36">
+      <div class="flex flex-col lg:flex-row lg:items-end lg:justify-between gap-6">
+        <div class="max-w-2xl">
+          <p class="eyebrow">Quality &amp; Trade Readiness</p>
+          <h2 class="mt-4 text-4xl leading-[1.08] md:text-5xl font-medium text-foreground">
+            Confidence Built on Evidence.
+          </h2>
+          <p class="mt-5 text-lg leading-relaxed text-muted-foreground">
+            Purchasing decisions demand verified data. Our five-pillar quality governance matrix verifies product integrity across every stage of origin and international transit.
+          </p>
+        </div>
+        <div class="shrink-0">
+          <a class="btn btn-outline" href="quality.html">
+            Explore Full Testing Framework →
+          </a>
+        </div>
+      </div>
+
+      <!-- 5 Interactive Verification Matrix Cards with Hologram Seals and Spotlight Glow -->
+      <div class="mt-14 verification-matrix">
+        <!-- Pillar 1 -->
+        <div class="verification-card">
+          <div class="flex items-center justify-between">
+            <span class="text-xs font-semibold tracking-[0.18em] text-gold uppercase">Pillar 01</span>
+            <div class="hologram-seal">
+              <svg class="w-5 h-5" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+                <path stroke-linecap="round" stroke-linejoin="round" d="M9 12l2 2 4-4m5.618-4.016A11.955 11.955 0 0112 2.944a11.955 11.955 0 01-8.618 3.04A12.02 12.02 0 003 9c0 5.591 3.824 10.29 9 11.622 5.176-1.332 9-6.03 9-11.622 0-1.042-.133-2.052-.382-3.016z"/>
+              </svg>
+            </div>
+          </div>
+          <h3 class="mt-6 text-xl font-bold text-foreground">Supplier Evaluation</h3>
+          <p class="mt-2 text-xs font-semibold text-primary">Origin Facility Audits &amp; Financial Due Diligence</p>
+          <p class="mt-3 text-xs text-muted-foreground leading-relaxed">
+            Multi-point operational assessment reviewing facility hygiene, processing capacity, legal incorporation, and confirmed history of supply compliance.
+          </p>
+          <div class="mt-6 pt-4 border-t border-border flex items-center gap-2 text-[0.7rem] text-foreground/80 font-medium">
+            <span class="h-1.5 w-1.5 rounded-full bg-gold"></span>
+            <span>Annual On-Site Inspections</span>
+          </div>
+        </div>
+
+        <!-- Pillar 2 -->
+        <div class="verification-card">
+          <div class="flex items-center justify-between">
+            <span class="text-xs font-semibold tracking-[0.18em] text-gold uppercase">Pillar 02</span>
+            <div class="hologram-seal">
+              <svg class="w-5 h-5" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+                <path stroke-linecap="round" stroke-linejoin="round" d="M19.428 15.428a2 2 0 00-1.022-.547l-2.387-.477a6 6 0 00-3.86.517l-.318.158a6 6 0 01-3.86.517L6.05 15.21a2 2 0 00-1.806.547M8 4h8l-1 1v5.172a2 2 0 00.586 1.414l5 5c1.26 1.26.367 3.414-1.415 3.414H4.828c-1.782 0-2.674-2.154-1.414-3.414l5-5A2 2 0 009 10.172V5L8 4z"/>
+              </svg>
+            </div>
+          </div>
+          <h3 class="mt-6 text-xl font-bold text-foreground">Product Verification</h3>
+          <p class="mt-2 text-xs font-semibold text-primary">NABL &amp; ISO 17025 Accredited Laboratory Testing</p>
+          <p class="mt-3 text-xs text-muted-foreground leading-relaxed">
+            Certificates of Analysis (COA) for volatile oil percentages, moisture content, pesticide MRL screens, heavy metals, microbial loads, and aflatoxins.
+          </p>
+          <div class="mt-6 pt-4 border-t border-border flex items-center gap-2 text-[0.7rem] text-foreground/80 font-medium">
+            <span class="h-1.5 w-1.5 rounded-full bg-primary"></span>
+            <span>Accredited Third-Party COA</span>
+          </div>
+        </div>
+
+        <!-- Pillar 3 -->
+        <div class="verification-card">
+          <div class="flex items-center justify-between">
+            <span class="text-xs font-semibold tracking-[0.18em] text-gold uppercase">Pillar 03</span>
+            <div class="hologram-seal">
+              <svg class="w-5 h-5" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+                <path stroke-linecap="round" stroke-linejoin="round" d="M7 7h.01M7 3h5c.512 0 1.024.195 1.414.586l7 7a2 2 0 010 2.828l-7 7a2 2 0 01-2.828 0l-7-7A1.994 1.994 0 013 12V7a4 4 0 014-4z"/>
+              </svg>
+            </div>
+          </div>
+          <h3 class="mt-6 text-xl font-bold text-foreground">Traceability &amp; Records</h3>
+          <p class="mt-2 text-xs font-semibold text-primary">Batch Lot Identification &amp; Sample Retention</p>
+          <p class="mt-3 text-xs text-muted-foreground leading-relaxed">
+            Individual batch tracing linking export packaging back to primary farm-gate and processing records. Sealed control samples retained for 12 months.
+          </p>
+          <div class="mt-6 pt-4 border-t border-border flex items-center gap-2 text-[0.7rem] text-foreground/80 font-medium">
+            <span class="h-1.5 w-1.5 rounded-full bg-gold"></span>
+            <span>12-Month Lot Retention</span>
+          </div>
+        </div>
+
+        <!-- Pillar 4 -->
+        <div class="verification-card">
+          <div class="flex items-center justify-between">
+            <span class="text-xs font-semibold tracking-[0.18em] text-gold uppercase">Pillar 04</span>
+            <div class="hologram-seal">
+              <svg class="w-5 h-5" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+                <path stroke-linecap="round" stroke-linejoin="round" d="M5 8h14M5 8a2 2 0 110-4h14a2 2 0 110 4M5 8v10a2 2 0 002 2h10a2 2 0 002-2V8m-9 4h4"/>
+              </svg>
+            </div>
+          </div>
+          <h3 class="mt-6 text-xl font-bold text-foreground">Trade Readiness</h3>
+          <p class="mt-2 text-xs font-semibold text-primary">Export Barrier Packaging &amp; Nitrogen Flush</p>
+          <p class="mt-3 text-xs text-muted-foreground leading-relaxed">
+            Multi-wall kraft paper bags, moisture-barrier poly liners, and vacuum nitrogen flushing to preserve volatile aromas during long maritime ocean transit.
+          </p>
+          <div class="mt-6 pt-4 border-t border-border flex items-center gap-2 text-[0.7rem] text-foreground/80 font-medium">
+            <span class="h-1.5 w-1.5 rounded-full bg-primary"></span>
+            <span>Food-Grade Export Packaging</span>
+          </div>
+        </div>
+
+        <!-- Pillar 5 -->
+        <div class="verification-card">
+          <div class="flex items-center justify-between">
+            <span class="text-xs font-semibold tracking-[0.18em] text-gold uppercase">Pillar 05</span>
+            <div class="hologram-seal">
+              <svg class="w-5 h-5" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+                <path stroke-linecap="round" stroke-linejoin="round" d="M9 12h6m-6 4h6m2 5H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z"/>
+              </svg>
+            </div>
+          </div>
+          <h3 class="mt-6 text-xl font-bold text-foreground">Supporting Credentials</h3>
+          <p class="mt-2 text-xs font-semibold text-primary">FSSAI, Spices Board of India &amp; UK Clearances</p>
+          <p class="mt-3 text-xs text-muted-foreground leading-relaxed">
+            Full compliance documentation including Certificate of Origin, Phytosanitary health certificates, Bills of Lading, and UK HMRC customs entry codes.
+          </p>
+          <div class="mt-6 pt-4 border-t border-border flex items-center gap-2 text-[0.7rem] text-foreground/80 font-medium">
+            <span class="h-1.5 w-1.5 rounded-full bg-gold"></span>
+            <span>Statutory Export Certification</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Why Tropic Treasure & Values (Page 8) -->
+    <section class="border-t border-border bg-secondary/40 py-24 md:py-36">
+      <div class="container-site">
+        <div class="max-w-3xl">
+          <p class="eyebrow">Why Tropic Treasure</p>
+          <h2 class="mt-4 text-4xl leading-[1.08] md:text-5xl font-medium">
+            Focused on Your Requirements. Built for Lasting Relationships.
+          </h2>
+        </div>
+
+        <div class="mt-16 grid gap-6 sm:grid-cols-2 lg:grid-cols-3">
+          <div class="border border-border bg-card p-8 hover:border-gold/50 transition-colors">
+            <span class="text-xs font-semibold tracking-[0.18em] text-gold uppercase">Buyer-Focused Support</span>
+            <p class="mt-3 text-sm leading-relaxed text-muted-foreground">
+              Your specifications, quantities and destination requirements guide our supply proposals.
+            </p>
+          </div>
+
+          <div class="border border-border bg-card p-8 hover:border-gold/50 transition-colors">
+            <span class="text-xs font-semibold tracking-[0.18em] text-gold uppercase">Clear Information</span>
+            <p class="mt-3 text-sm leading-relaxed text-muted-foreground">
+              Product details, commercial terms and next steps are presented clearly to support informed purchasing.
+            </p>
+          </div>
+
+          <div class="border border-border bg-card p-8 hover:border-gold/50 transition-colors">
+            <span class="text-xs font-semibold tracking-[0.18em] text-gold uppercase">Connected Coordination</span>
+            <p class="mt-3 text-sm leading-relaxed text-muted-foreground">
+              Our India and UK operations coordinate communication between suppliers and customers.
+            </p>
+          </div>
+
+          <div class="border border-border bg-card p-8 hover:border-gold/50 transition-colors">
+            <span class="text-xs font-semibold tracking-[0.18em] text-gold uppercase">Dependable Partnerships</span>
+            <p class="mt-3 text-sm leading-relaxed text-muted-foreground">
+              Clear communication and consistent follow-through support lasting working relationships.
+            </p>
+          </div>
+
+          <div class="border border-border bg-card p-8 sm:col-span-2 lg:col-span-2 hover:border-gold/50 transition-colors">
+            <span class="text-xs font-semibold tracking-[0.18em] text-gold uppercase">Origin Knowledge</span>
+            <p class="mt-3 text-sm leading-relaxed text-muted-foreground">
+              Our Kerala roots and supplier relationships inform discussions about origin and sourcing options.
+            </p>
+          </div>
+        </div>
+
+        <!-- Values Banner -->
+        <div class="mt-12 border-t border-border pt-10">
+          <span class="eyebrow block">Our Values</span>
+          <div class="mt-4 flex flex-wrap items-center gap-3 md:gap-6 text-lg font-serif font-medium text-foreground">
+            <span>Integrity</span>
+            <span class="text-gold">·</span>
+            <span>Quality Consciousness</span>
+            <span class="text-gold">·</span>
+            <span>Respect for Origin</span>
+            <span class="text-gold">·</span>
+            <span>Dependable Partnerships</span>
+            <span class="text-gold">·</span>
+            <span>Responsible Growth</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Founder's Message: Side Flow Executive Layout Upgrade (Page 9) -->
+    <section class="container-site py-24 md:py-36">
+      <div class="founder-flow-container">
+        <!-- Column 1: Executive Portrait Frame with Credentials Overlay -->
+        <div class="founder-portrait-frame">
+          <img src="assets/founder-portrait.jpg" alt="Mr Tintu Pillai, Founder & Managing Director, Tropic Treasure" width="800" height="1067"/>
+          <div class="founder-badge-overlay">
+            <p class="font-bold text-xl text-ivory">Mr Tintu Pillai</p>
+            <p class="text-xs text-gold font-semibold tracking-wider uppercase mt-0.5">Founder &amp; Group Managing Director</p>
+            <p class="text-[0.68rem] text-ivory/70 mt-1">Tropic Treasure Limited (UK) &amp; Tropic Treasure Exim Pvt Ltd (India)</p>
+          </div>
+        </div>
+
+        <!-- Column 2: Side Flow Editorial Quote Narrative -->
+        <div class="text-ivory">
+          <div class="quote-glyph">“</div>
+          <blockquote class="font-serif text-2xl md:text-3xl leading-snug text-ivory font-medium">
+            “Every ingredient begins at origin—with a place, a producer and a journey.”
+          </blockquote>
+
+          <div class="mt-8 space-y-4 text-sm md:text-base leading-relaxed text-ivory/85">
+            <p>
+              Growing up in Kerala taught me to value India’s rich agricultural heritage and the dedication of the farming communities who nurture it. That appreciation inspired the founding of <strong>Tropic Treasure</strong> and my commitment to connect their produce directly with international food enterprises.
+            </p>
+            <p>
+              International trade should not be opaque. By operating directly through our own entities in both Kerala and the United Kingdom, we remove unnecessary layers, guarantee verified traceability, and ensure buyers receive precisely what was contracted.
+            </p>
+            <p class="font-medium text-ivory pt-2">
+              Our ambition is simple: to build a business customers can rely on and suppliers can be proud to partner with. I look forward to working together.
+            </p>
+          </div>
+
+          <div class="mt-10 pt-6 border-t border-ivory/20 flex items-center justify-between">
+            <div>
+              <p class="font-serif text-lg text-gold font-bold italic">Tintu Pillai</p>
+              <p class="text-xs text-ivory/60">Managing Director · Tropic Treasure</p>
+            </div>
+            <div class="text-right">
+              <span class="inline-block bg-ivory/10 border border-ivory/20 px-3 py-1 text-[0.68rem] uppercase tracking-widest text-gold">
+                Founder's Vision 2026
+              </span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Trade Enquiry CTA (Page 10) -->
+    <section class="bg-primary text-primary-foreground">
+      <div class="container-site py-24 md:py-36">
+        <p class="eyebrow !text-primary-foreground/70">Let’s Build Trusted Trade Together</p>
+        <h2 class="mt-4 max-w-4xl text-4xl leading-[1.05] md:text-6xl font-medium">
+          Looking for India-Origin Products or Ingredients?
+        </h2>
+        <div class="mt-10 grid gap-8 md:grid-cols-12 md:items-end">
+          <div class="md:col-span-7">
+            <p class="text-xl font-medium">Tell us what you're looking for.</p>
+            <p class="mt-3 text-base text-primary-foreground/80 leading-relaxed">
+              Share your product, intended use, specification, quantity, packaging, destination and target delivery date.
+            </p>
+          </div>
+          <div class="md:col-span-5 md:text-right">
+            <a class="btn btn-light arrow-nudge text-sm" href="trade.html#enquiry">
+              Send a Trade Enquiry <span class="arr">→</span>
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- Untarnished Luxury Site Footer -->
+  <footer class="site-footer">
+    <div class="container-site grid gap-12 py-16 md:grid-cols-12 md:py-20">
+      <!-- Col 1: Brand & Contact -->
+      <div class="md:col-span-4">
+        <span class="flex items-center gap-3">
+          <img src="assets/tt-mark.png" alt="Tropic Treasure Logo" width="40" height="40" class="h-9 w-9 shrink-0 md:h-10 md:w-10"/>
+          <span class="flex flex-col leading-none text-ivory">
+            <span class="logo-title text-[0.98rem] font-semibold tracking-[0.22em]">TROPIC TREASURE</span>
+            <span class="mt-1.5 border-t pt-1.5 text-[0.56rem] font-medium tracking-[0.16em] uppercase border-ivory/25 text-gold">India-Origin Sourcing &amp; Ingredients Company</span>
+          </span>
+        </span>
+        <p class="mt-6 text-xl font-medium leading-snug tracking-tight text-ivory">
+          From Soil to Shelf, Built to Be Trusted.
+        </p>
+        <p class="mt-2 text-xs text-ivory/70 leading-relaxed">
+          Rooted in Kerala · Connecting India with the World.
+        </p>
+        <div class="mt-6 text-xs text-ivory/75 space-y-2">
+          <p class="flex items-center gap-2">
+            <span class="text-gold font-bold">Email:</span>
+            <a href="mailto:contact@tropictreasure.com" class="hover:text-gold transition-colors underline">contact@tropictreasure.com</a>
+          </p>
+          <p class="flex items-center gap-2">
+            <span class="text-gold font-bold">Web:</span>
+            <a href="https://tropictreasure.com" class="hover:text-gold transition-colors">tropictreasure.com</a>
+          </p>
+          <p class="pt-2 text-ivory/50">Focus Corridors: United Kingdom · Europe · Middle East</p>
+        </div>
+      </div>
+
+      <!-- Col 2: Navigation Links -->
+      <div class="md:col-span-2">
+        <h3 class="mb-5 font-sans text-xs font-bold tracking-[0.2em] text-gold uppercase">Company</h3>
+        <div class="flex flex-col gap-3 text-sm">
+          <a class="footer-link" href="about.html"><span>→</span> About Us</a>
+          <a class="footer-link" href="quality.html"><span>→</span> Quality &amp; Sourcing</a>
+          <a class="footer-link" href="trade.html"><span>→</span> Trade With Us</a>
+          <a class="footer-link" href="contact.html"><span>→</span> Contact Us</a>
+        </div>
+      </div>
+
+      <!-- Col 3: Product Portfolio -->
+      <div class="md:col-span-3">
+        <h3 class="mb-5 font-sans text-xs font-bold tracking-[0.2em] text-gold uppercase">Ingredients Portfolio</h3>
+        <div class="flex flex-col gap-3 text-xs leading-relaxed">
+          <a class="footer-link" href="products.html#spices"><span>→</span> <strong>Spices</strong> (Pepper, Cardamom, Ginger, Turmeric)</a>
+          <a class="footer-link" href="products.html#coffee"><span>→</span> <strong>Coffee</strong> (Arabica, Robusta, Roasted Beans)</a>
+          <a class="footer-link" href="products.html#nuts"><span>→</span> <strong>Nuts</strong> (Cashew Kernels W180–W320)</a>
+          <a class="footer-link" href="products.html#oleoresins"><span>→</span> <strong>Oleoresins</strong> (Turmeric, Clove, Black Pepper)</a>
+        </div>
+      </div>
+
+      <!-- Col 4: Dual Corporate Entities -->
+      <div class="md:col-span-3">
+        <h3 class="mb-5 font-sans text-xs font-bold tracking-[0.2em] text-gold uppercase">Offices &amp; Entities</h3>
+        <div class="space-y-3.5 text-xs">
+          <div class="footer-entity-box">
+            <div class="flex items-center justify-between">
+              <p class="font-bold text-ivory">Tropic Treasure Limited</p>
+              <span class="live-time-london text-[0.65rem] text-gold font-mono">GMT</span>
+            </div>
+            <p class="text-ivory/70 mt-1">Ilford, Essex IG2 6PL, United Kingdom</p>
+            <p class="text-gold font-mono mt-1">+44 7777 306396</p>
+          </div>
+          <div class="footer-entity-box">
+            <div class="flex items-center justify-between">
+              <p class="font-bold text-ivory">Tropic Treasure Exim Pvt Ltd</p>
+              <span class="live-time-kochi text-[0.65rem] text-primary font-mono">IST</span>
+            </div>
+            <p class="text-ivory/70 mt-1">4/310/C Thalayolaparambu, Kottayam, Kerala 686605</p>
+            <p class="text-gold font-mono mt-1">+91 81569 02116</p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="border-t border-ivory/10">
+      <div class="container-site flex flex-col gap-3 py-6 text-xs text-ivory/60 md:flex-row md:items-center md:justify-between">
+        <p>Tropic Treasure Limited (UK) · Tropic Treasure Exim (OPC) Private Limited (India) · Company Profile 2026</p>
+        <div class="flex flex-wrap gap-5">
+          <a href="privacy.html" class="hover:text-gold transition-colors">Privacy Policy</a>
+          <a href="terms.html" class="hover:text-gold transition-colors">Terms &amp; Conditions</a>
+          <a href="cookies.html" class="hover:text-gold transition-colors">Cookie Policy</a>
+          <span class="text-ivory/40">© 2026 Tropic Treasure</span>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <script src="script.js" defer></script>
+</body>
+</html>
